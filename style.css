@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.topo{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #e76b06;
+    color: #041470;
+    padding: 20px 0;
+}
+.topo div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.capa{
+    width: 100%;
+}
+.topo span{
+    margin: 0 30px;
+}
+.topo a{
+    color: #656368;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    
+}
+.topo a:hover{
+    background: rgb(162, 240, 17);
+}
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.texte{
+    background-color: #757272;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.secao h2{
+    font-size: 22vr;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.secao p{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px 0;
+}
+.secao img{
+    width: 100%;
+}
+.secao a {
+    color: blue;
+}
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+.galeria img {
+    width: 315px;
+    margin:  10px;
+}
+.imagem-sombra{
+    box-shadow: 10px 10px 10px #610303;
+}
+.informacao{
+    margin: 15px auto;
+}
+.rodape{
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #e76b06;
+    color: #fff;
+    padding: 12px 0;
+}
